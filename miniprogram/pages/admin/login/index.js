@@ -41,6 +41,9 @@ Page({
       let data = res.result;
       if (data.errorCode == 200){
         console.log('注册成功')
+        wx.navigateTo({
+          url: '../index/index',
+        })
       }
     }).catch(err => {
       wx.hideLoading()

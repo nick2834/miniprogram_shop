@@ -4,6 +4,7 @@
     "pages/classify/index",
     "pages/mine/index",
     "pages/admin/login/index",
+    "pages/admin/index/index",
     "pages/admin/classify/index",
     "pages/admin/list/index",
     "custom-tab-bar/index"
