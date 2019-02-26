@@ -1,0 +1,6 @@
+form-group .title {
+  min-width: calc(4em + 15px);
+}
+.logo_png{
+  width: 100%;
+}
