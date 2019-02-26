@@ -24,6 +24,7 @@ Page({
   },
   handleLogin(e){
     let data = that.data.form;
+    data['isLogin'] = true;
     if (data.phoneId == '' || data.password == ''){
       wx.showToast({
         title: '账户或密码不能为空',
@@ -39,10 +40,16 @@ Page({
     }).then(res => {
       wx.hideLoading()
       let data = res.result;
+      console.log(data)
       if (data.errorCode == 200){
         console.log('注册成功')
         wx.navigateTo({
           url: '../index/index',
+        })
+      }else{
+        wx.showToast({
+          title: data.msg,
+          icon:"none"
         })
       }
     }).catch(err => {
@@ -51,6 +58,7 @@ Page({
   },
   handleRegister(){
     let data = that.data.form;
+    data['isLogin'] = false;
     if (data.phoneId == '' || data.password == '') {
       wx.showToast({
         title: '账户或密码不能为空',
