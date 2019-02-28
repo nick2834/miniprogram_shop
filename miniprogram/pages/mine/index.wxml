@@ -34,7 +34,7 @@
     </navigator>
   </view>
   <view class="cu-item arrow">
-    <navigator class='content' url='../log/log' hover-class='none'>
+    <navigator class='content' url='/pages/drawer/index' hover-class='none'>
       <text class='icon-formfill text-green'></text>
       <text class='text-grey'>日志</text>
     </navigator>

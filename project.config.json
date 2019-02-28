@@ -33,7 +33,7 @@
 				{
 					"id": 0,
 					"name": "admin",
-					"pathName": "pages/admin/login/index",
+					"pathName": "pages/admin/list/index",
 					"query": "",
 					"scene": null
 				}

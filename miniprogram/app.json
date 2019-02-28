@@ -7,6 +7,7 @@
     "pages/admin/index/index",
     "pages/admin/classify/index",
     "pages/admin/list/index",
+    "pages/drawer/index",
     "custom-tab-bar/index"
   ],
   "window": {

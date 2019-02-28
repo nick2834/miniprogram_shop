@@ -2747,6 +2747,8 @@ scroll-view.cu-steps .cu-item {
   padding-bottom: calc((100% - 40rpx)/3);
   height: 0;
   width: calc((100% - 40rpx)/3);
+  border: 1rpx solid #eaeaea;
+  box-sizing: border-box;
 }
 
 .grid.col-3.grid-square > view:nth-child(3n) {

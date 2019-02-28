@@ -5,3 +5,10 @@
     </navigator>
   </view>
 </view>
+<view class="cu-card">
+  <navigator class="cu-item bg-img shadow-blur" style="background-image:url({{item.img}})"data-url="{{item.url}}" wx:for="{{list}}" wx:key url='{{item.url}}' hover-class='none'>
+    <view class="cardTitle">
+      {{item.title}}
+    </view>
+  </navigator>
+</view>

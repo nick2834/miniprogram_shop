@@ -1,1 +1,3 @@
-/* pages/admin/list/index.wxss */
+form-group .title {
+  min-width: calc(4em + 15px);
+}

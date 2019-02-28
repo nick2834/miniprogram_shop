@@ -1,1 +1,3 @@
-/* pages/admin/classify/index.wxss */
+form-group .title {
+  min-width: calc(4em + 15px);
+}
